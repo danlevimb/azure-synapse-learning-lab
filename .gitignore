@@ -1,0 +1,42 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+*.secret
+*.key
+*.pem
+*.pfx
+*.p12
+*.publishsettings
+
+# Azure / local credentials
+.azure/
+.azcopy/
+*.azcopy
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Local generated data
+local_data/
+generated_data/
+
+# Screenshots pending cleanup
+raw_screenshots/
+uncensored_evidence/
